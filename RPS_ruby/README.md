@@ -4,6 +4,10 @@ As a player,
 I want to be able to choose between Rock Paper Scissors.
 
 As a player,
+Since I want to play with my friend,
+I want my friend to be able to choose between Rock Paper Scissors.
+
+As a player,
 because I have no friends, I want to be able to play against a computer.
 
 As a player,
