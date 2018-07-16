@@ -24,6 +24,13 @@ describe RPS do
 
     end
 
+    describe "player 2 wins" do
+
+      it "rock beats scissors" do
+        expect(subject.play("scissors", "rock")).to eq("Player 2 wins!")
+      end
+
+    end
 
   end
 
