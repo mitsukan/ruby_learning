@@ -8,9 +8,14 @@ describe RPS do
 
   describe ".play" do
 
-    it "rock beats scissors" do
-      expect(subject.play("rock", "scissors")).to eq("Player 1 wins!")
+    describe "player 1 wins" do
+
+      it "rock beats scissors" do
+        expect(subject.play("rock", "scissors")).to eq("Player 1 wins!")
+      end
+
     end
+
 
   end
 
