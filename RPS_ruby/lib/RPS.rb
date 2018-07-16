@@ -7,7 +7,7 @@ class RPS
   end
 
   def play(p1, p2)
-    if (p1 == "rock" && p2 == "scissors") || (p1 == "scissors" && p2 == "paper")
+    if (p1 == "rock" && p2 == "scissors") || (p1 == "scissors" && p2 == "paper") || (p1 == "paper" && p2 == "rock")
       "Player 1 wins!"
     end
   end
